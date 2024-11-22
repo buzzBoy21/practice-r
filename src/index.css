@@ -27,7 +27,9 @@ body {
 
   height: 100vh;
 }
-
+p {
+  text-wrap: balance;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -53,22 +55,36 @@ button {
 button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+/* button:focus,
+      button:focus-visible {
+        outline: 4px auto -webkit-focus-ring-color;
+      } */
 table > tr > th {
-  padding: 10px;
+  padding: 0.5em;
+}
+svg {
+  fill: rgba(255, 255, 255, 0.87);
+}
+summary {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1a1a1a;
 }
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
+  summary {
+    color: #213547;
+    background-color: #f9f9f9;
+  }
   a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
+  }
+  svg {
+    fill: #213547;
   }
 }

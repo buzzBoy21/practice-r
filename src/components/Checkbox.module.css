@@ -1,0 +1,21 @@
+.container-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: 1em;
+  & > label {
+    margin: 0;
+    text-wrap: balance;
+    width: fit-content;
+  }
+  & > input {
+    margin: 0;
+    flex-grow: 1;
+  }
+}
+
+@media (width< 500px) {
+  input {
+    transform: scale(1.5);
+  }
+}

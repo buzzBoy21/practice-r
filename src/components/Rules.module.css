@@ -1,0 +1,12 @@
+.rulesTable {
+  & > tr > th {
+    font-weight: normal;
+    text-wrap: balance;
+  }
+}
+.closeButton {
+  width: 100%;
+}
+.ruleModal {
+  margin: 0 1em;
+}
