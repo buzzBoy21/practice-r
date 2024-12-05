@@ -69,6 +69,7 @@ summary {
   color: rgba(255, 255, 255, 0.87);
   background-color: #1a1a1a;
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -87,4 +88,5 @@ summary {
   svg {
     fill: #213547;
   }
+ 
 }

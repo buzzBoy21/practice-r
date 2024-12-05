@@ -54,15 +54,15 @@ function App() {
     <>
       <button onClick={resetAllWords} className={"reset-button"}>
         <svg
-          width="auto"
+          width="1.7em"
           height="1.7em"
           viewBox="0 0 1920 1920"
           xmlns="http://www.w3.org/2000/svg"
-          className={resetPressed && "rotate-image"}
+          className={resetPressed ? "rotate-image":""}
         >
           <path
             d="M960 0v112.941c467.125 0 847.059 379.934 847.059 847.059 0 467.125-379.934 847.059-847.059 847.059-467.125 0-847.059-379.934-847.059-847.059 0-267.106 126.607-515.915 338.824-675.727v393.374h112.94V112.941H0v112.941h342.89C127.058 407.38 0 674.711 0 960c0 529.355 430.645 960 960 960s960-430.645 960-960S1489.355 0 960 0"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           />
         </svg>
       </button>
@@ -76,14 +76,16 @@ function App() {
           <th>English word</th>
         </tr>
         <tr>
-          <th>{showSpanishWord && pickedWord.spanish}</th>
-          <th>{showEnglishWord && pickedWord.english}</th>
+          {/* show always the words when you want to see the solution */}
+          <th>{(showSpanishWord || showAnswerPressed) && pickedWord.spanish}</th>
+          <th>{(showEnglishWord || showAnswerPressed) && pickedWord.english}</th>
         </tr>
       </table>
       <button onClick={handleNextWordClick}>Next word →</button>
       <button onClick={handleShowAnswerClick}>show answer</button>
       <p>{alwaysShowAnswer || showAnswerPressed ? pickedWord.answer : ""}</p>
-      <Rules />
+      <Rules usedRules={pickedWord.appliedRules}/>
+
       <details className={"settings-form"}>
         <summary>Ajustes (settings)</summary>
         <div className={"content-settings"}>

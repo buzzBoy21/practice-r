@@ -1,92 +1,104 @@
 [
-  { "spanish": "carro", "english": "car", "answer": "fuerte (strong)" },
-  { "spanish": "perro", "english": "dog", "answer": "fuerte (strong)" },
-  { "spanish": "hierro", "english": "iron", "answer": "fuerte (strong)" },
+  { "spanish": "carro", "english": "car", "answer": "fuerte (strong)","appliedRules":[1]},
+  { "spanish": "perro", "english": "dog", "answer": "fuerte (strong)", "appliedRules":[1]},
+  { "spanish": "hierro", "english": "iron", "answer": "fuerte (strong)" ,"appliedRules":[1]},
   {
     "spanish": "barrio",
     "english": "neighborhood",
-    "answer": "fuerte (strong)"
+    "answer": "fuerte (strong)",
+    "appliedRules":[1]
   },
   {
     "spanish": "tierra",
     "english": "earth, land",
-    "answer": "fuerte (strong)"
+    "answer": "fuerte (strong)",
+    "appliedRules":[1]
   },
-  { "spanish": "guerra", "english": "war", "answer": "fuerte (strong)" },
+  { "spanish": "guerra", "english": "war", "answer": "fuerte (strong)","appliedRules":[1] },
   {
     "spanish": "sierra",
     "english": "mountain range",
-    "answer": "fuerte (strong)"
+    "answer": "fuerte (strong)",
+    "appliedRules":[1]
   },
   {
     "spanish": "ahorrar",
     "english": "to save",
-    "answer": "fuerte ,débil (strong, soft)"
+    "answer": "fuerte ,débil (strong, soft)",
+    "appliedRules":[1,3]
   },
   {
     "spanish": "llorar",
     "english": "to cry",
-    "answer": " débil, débil (soft, soft)"
+    "answer": " débil, débil (soft, soft)",
+    "appliedRules":[3,4]
+
   },
   {
     "spanish": "distracción",
     "english": "distraction",
-    "answer": "débil (soft)"
+    "answer": "débil (soft)",
+    "appliedRules":[3]
+
   },
-  { "spanish": "rojo", "english": "red", "answer": "fuerte (strong)" },
-  { "spanish": "ratón", "english": "rat", "answer": "fuerte (strong)" },
-  { "spanish": "rápido", "english": "fast", "answer": "fuerte (strong)" },
-  { "spanish": "reina", "english": "queen", "answer": "fuerte (strong)" },
-  { "spanish": "rico", "english": "rich", "answer": "fuerte (strong)" },
-  { "spanish": "rayo", "english": "ray", "answer": "fuerte (strong)" },
-  { "spanish": "rumor", "english": "rumor", "answer": "fuerte (strong)" },
-  { "spanish": "ruido", "english": "noise", "answer": "fuerte (strong)" },
-  { "spanish": "río", "english": "river", "answer": "fuerte (strong)" },
+  { "spanish": "rojo", "english": "red", "answer": "fuerte (strong)","appliedRules":[0] },
+  { "spanish": "ratón", "english": "rat", "answer": "fuerte (strong)","appliedRules":[0] },
+  { "spanish": "rápido", "english": "fast", "answer": "fuerte (strong)","appliedRules":[0] },
+  { "spanish": "reina", "english": "queen", "answer": "fuerte (strong)","appliedRules":[0] },
+  { "spanish": "rico", "english": "rich", "answer": "fuerte (strong)","appliedRules":[0] },
+  { "spanish": "rayo", "english": "ray", "answer": "fuerte (strong)","appliedRules":[0] },
+  { "spanish": "rumor", "english": "rumor", "answer": "fuerte ,débil (strong, soft)","appliedRules":[0,3] },
+  { "spanish": "ruido", "english": "noise", "answer": "fuerte (strong)","appliedRules":[0] },
+  { "spanish": "río", "english": "river", "answer": "fuerte (strong)","appliedRules":[0] },
   {
     "spanish": "recuerdo",
     "english": "memory",
-    "answer": "fuerte, débil (strong, soft)"
+    "answer": "fuerte, débil (strong, soft)",
+    "appliedRules":[0,3]
   },
   {
     "spanish": "Rafa Nadal",
     "english": "Rafa Nadal",
-    "answer": "fuerte (strong)"
+    "answer": "fuerte (strong)",
+    "appliedRules":[0]
   },
-  { "spanish": "alrededor", "english": "around", "answer": "débil (soft)" },
-  { "spanish": "enredo", "english": "tangle", "answer": "débil (soft)" },
-  { "spanish": "israelita", "english": "Israeli", "answer": "fuerte (strong)" },
-  { "spanish": "libro", "english": "book", "answer": "débil (soft)" },
+  { "spanish": "alrededor", "english": "around", "answer": "fuerte ,débil (strong, soft)","appliedRules":[2,3] },
+  { "spanish": "enredo", "english": "tangle", "answer": "fuerte (strong)","appliedRules":[2] },
+  { "spanish": "israelita", "english": "Israeli", "answer": "fuerte (strong)","appliedRules":[2] },
+  { "spanish": "libro", "english": "book", "answer": "débil (soft)","appliedRules":[3] },
   {
     "spanish": "narrar",
     "english": "to narrate",
-    "answer": "fuerte, débil (strong, soft)"
+    "answer": "fuerte, débil (strong, soft)",
+    "appliedRules":[1,3]
   },
-  { "spanish": "sagrado", "english": "sacred", "answer": "débil (soft)" },
-  { "spanish": "transporte", "english": "transport", "answer": "débil (soft)" },
-  { "spanish": "flor", "english": "flower", "answer": "débil (soft)" },
-  { "spanish": "sombra", "english": "shadow", "answer": "débil (soft)" },
-  { "spanish": "cara", "english": "face", "answer": "débil (soft)" },
-  { "spanish": "pero", "english": "but", "answer": "débil (soft)" },
-  { "spanish": "amor", "english": "love", "answer": "débil (soft)" },
-  { "spanish": "mar", "english": "sea", "answer": "débil (soft)" },
+  { "spanish": "sagrado", "english": "sacred", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "transporte", "english": "transport", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "flor", "english": "flower", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "sombra", "english": "shadow", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "cara", "english": "face", "answer": "débil (soft)","appliedRules":[3,4] },
+  { "spanish": "pero", "english": "but", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "amor", "english": "love", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "mar", "english": "sea", "answer": "débil (soft)","appliedRules":[3] },
   {
     "spanish": "correr",
     "english": "to run",
-    "answer": "fuerte, débil (strong, soft)"
+    "answer": "fuerte, débil (strong, soft)",
+    "appliedRules":[1,3]
   },
-  { "spanish": "mortal", "english": "mortal", "answer": "débil (soft)" },
-  { "spanish": "corona", "english": "crown", "answer": "débil (soft)" },
-  { "spanish": "amor", "english": "love", "answer": "débil (soft)" },
-  { "spanish": "mar", "english": "sea", "answer": "débil (soft)" },
-  { "spanish": "flor", "english": "flower", "answer": "débil (soft)" },
-  { "spanish": "bar", "english": "bar", "answer": "débil (soft)" },
-  { "spanish": "poder", "english": "to be able to", "answer": "débil (soft)" },
-  { "spanish": "cordero", "english": "lamb", "answer": "débil (soft)" },
-  { "spanish": "fuerte", "english": "strong", "answer": "débil (soft)" },
+  { "spanish": "mortal", "english": "mortal", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "corona", "english": "crown", "answer": "débil (soft)","appliedRules":[3,4] },
+  { "spanish": "amor", "english": "love", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "mar", "english": "sea", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "flor", "english": "flower", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "bar", "english": "bar", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "poder", "english": "to be able to", "answer": "débil (soft)","appliedRules":[3] },
+  { "spanish": "cordero", "english": "lamb", "answer": "débil, débil (soft, soft)","appliedRules":[3] },
+  { "spanish": "fuerte", "english": "strong", "answer": "débil (soft)","appliedRules":[3] },
   {
     "spanish": "cerrar",
     "english": "to close",
-    "answer": "fuerte, débil (strong, soft)"
+    "answer": "fuerte, débil (strong, soft)","appliedRules":[1,3]
   },
-  { "spanish": "decir", "english": "to say", "answer": "débil (soft)" }
+  { "spanish": "decir", "english": "to say", "answer": "débil (soft)","appliedRules":[3] }
 ]
